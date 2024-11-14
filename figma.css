@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
+
+* {
+    font-family: Poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+
+}
+
+.logo {
+    margin-left: 250px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 140px;
+}
+
+nav li {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.firstnav {
+    color: #00FFA7;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    background: #C9F31D;
+    color: black;
+    border: none;
+    margin-right: 235px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.login {
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.line {
+    border: 0;
+    border-top: 2px solid #1f1f1f;
+
+
+}
+
+.second {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 103px;
+}
+
+.second h1 {
+    margin-bottom: 20px;
+    padding-right: 60px;
+    font-size: 120px;
+    font-weight: 900;
+    letter-spacing: 13px;
+    line-height: 1.0;
+}
+
+.gradient {
+    background: linear-gradient(to left, #00FFA7, #FFFF00);
+    color: transparent;
+    background-clip: text;
+    letter-spacing: normal;
+}
+
+.second p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.get-started-btn {
+    background-color: #C9F31D;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.get {
+    border-radius: 45px;
+    border: none;
+    margin-right: 25px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.getarrow {
+    background-color: black;
+    color: white;
+    margin-left: 3px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+
+.service-card {
+    background: #baf4d4;
+    border-radius: 10px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.services-section {
+    text-align: center;
+    margin: 40px 150px;
+    padding: 40px 20px;
+}
+
+.card-image {
+     height: 150px; 
+    width: 100%; 
+}
+
+.cardimg{
+  object-fit:contain;
+  height: 100%;
+  width: 100%;
+}
+
+.third {
+    padding: 2px 60px;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.services-section h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.services-section p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #f0f0f0;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 293px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-header {
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-header .icon {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.service-card h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+
+
+.explore-button1,
+.explore-button3,
+.explore-button4 {
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 121px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+
+.explore-button2 {
+    background-color: black;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: 5px;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 121px;
+    cursor: pointer;
+}
+
+.explore-button1 .arrow,
+.explore-button2 .arrow,
+.explore-button3 .arrow,
+.explore-button4 .arrow {
+    background: linear-gradient(to left, #00FFA7, #FFFF00);
+    color: #000;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.right-arrow {
+    background-color: #fff;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.left-arrow {
+    background-color: transparent;
+    border: none;
+}
+
+.card1 {
+    border: 1px solid black;
+    margin-bottom: 4px;
+}
+
+.footerimg {
+
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.footerhr {
+    border: 1px solid #5E5E5E;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.copyright {
+    height: 28vh;
+    width: 100%;
+    background-color: rgb(15, 12, 12);
+}
+
+.footerp {
+    color: #98A6AC;
+    margin: 70px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.hero-section {
+    height: 370px;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin: 30px 30px 30px 230px;
+    background: linear-gradient(to left, #ADFFD3 20.89%, #99ECFE 54.78%, #8CC8FF 100%);
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: left;
+}
+
+.app-store {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    gap: 30px;
+}
+
+.mobile {
+    height: 368px;
+    width: 350px;
+    margin: 8px 6px 0px 0px;
+    border-radius: 25px;
+}
+
+
+
+/* Responsive Design for Tablets (768px - 1024px) */
+@media (max-width: 1400px) {
+    .header {
+        padding: 15px;
+        /* Reduce padding in the header */
+    }
+
+    .logo {
+        margin-left: 100px;
+        /* Reduce left margin for the logo */
+    }
+
+    nav ul {
+        margin-right: 50px;
+        /* Reduce right margin for navigation */
+    }
+
+    nav li {
+        font-size: 16px;
+        /* Smaller font size for nav links */
+        margin-right: 15px;
+        /* Less space between links */
+    }
+
+    .signup {
+        padding: 8px 20px;
+        /* Smaller padding */
+        margin-right: 100px;
+        /* Adjust right margin */
+        font-size: 16px;
+        /* Smaller font size */
+    }
+
+    .second h1 {
+        font-size: 80px;
+        /* Reduce heading size */
+        padding-right: 30px;
+        /* Less right padding */
+    }
+
+    .second p {
+        font-size: 18px;
+        /* Smaller font size */
+    }
+
+    .hero-section {
+        width: 90%;
+        /* Full width for hero section */
+        margin: 20px auto;
+        /* Center hero section */
+    }
+
+    .services-section {
+        margin: 20px 50px;
+        /* Less side margin for services */
+    }
+
+    .services-section h2 {
+        font-size: 40px;
+        /* Smaller font size for heading */
+    }
+
+    .service-card {
+        width: 45%;
+        /* Adjust width for cards */
+        padding: 40px;
+        /* Reduce padding */
+    }
+
+    .footerimg,
+    .footerp {
+        font-size: 12px;
+        /* Smaller text size in footer */
+    }
+}
+
+/* Responsive Design for Mobile Devices (max-width: 767px) */
+@media (max-width: 930px) {
+    .header {
+        flex-direction: column;
+        /* Stack logo and nav vertically */
+        align-items: center;
+        /* Center align items */
+        padding: 10px;
+        /* Reduce padding */
+    }
+
+    .logo {
+        margin-left: 0;
+        /* Center logo */
+        margin-bottom: 10px;
+        /* Add space below logo */
+    }
+
+    nav ul {
+        flex-direction: column;
+        /* Stack nav links vertically */
+        align-items: center;
+        /* Center align nav links */
+        margin-right: 0;
+        /* Remove right margin */
+    }
+
+    nav li {
+        font-size: 14px;
+        /* Smaller font size */
+        margin: 10px 0;
+        /* Vertical spacing between links */
+    }
+
+    .buttons {
+        flex-direction: column;
+        /* Stack buttons vertically */
+        margin-bottom: 10px;
+        /* Add bottom margin */
+    }
+
+    .login {
+        font-size: 14px;
+        /* Smaller font size */
+        padding: 18px 20px;
+        /* Reduce padding */
+    }
+
+    .signup {
+        font-size: 18px;
+        margin-right: 25px;
+    }
+
+    .second {
+        padding: 50px 20px;
+        /* Reduce padding for smaller screens */
+    }
+
+    .second h1 {
+        font-size: 60px;
+        /* Smaller heading size */
+        padding-right: 0;
+        /* Remove right padding */
+        letter-spacing: 5px;
+        /* Reduce letter spacing */
+    }
+
+    .second p {
+        font-size: 16px;
+        /* Smaller font size */
+    }
+
+    .hero-section {
+        width: 100%;
+        /* Full width */
+        height: auto;
+        /* Auto height */
+        flex-direction: column;
+        /* Stack hero content and image */
+        padding: 20px;
+        /* Add padding */
+        margin: 20px 0;
+        /* Center on mobile */
+    }
+
+    .services-section {
+        margin: 20px;
+        /* Less margin */
+        padding: 0 10px;
+        /* Less padding */
+    }
+
+    .services-section h2 {
+        font-size: 30px;
+        /* Smaller heading size */
+        text-align: center;
+        /* Center-align heading */
+    }
+
+    .services-container {
+        flex-direction: column;
+        /* Stack service cards vertically */
+        gap: 10px;
+        /* Adjust gap between cards */
+    }
+
+    .service-card {
+        width: 90%;
+        /* Full width */
+        padding: 30px 10px;
+        /* Reduce padding */
+    }
+
+    .footerimg {
+        width: 100%;
+        /* Full width for footer image */
+    }
+
+    .footerhr {
+        width: 90%;
+        /* Adjust HR width */
+    }
+
+    .footerp {
+        font-size: 12px;
+        /* Smaller font size */
+        margin: 30px 10px;
+        /* Reduce margin */
+    }
+}
+
+/* Responsive Design for Extra Small Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .header {
+        padding: 8px;
+        /* Further reduce header padding */
+    }
+
+    .signup,
+    .login {
+        font-size: 12px;
+        /* Smaller font size */
+        padding: 6px 15px;
+        /* Smaller padding */
+    }
+
+    .second h1 {
+        font-size: 50px;
+        /* Reduce heading size */
+        letter-spacing: 3px;
+        /* Reduce letter spacing */
+    }
+
+    .second p {
+        font-size: 14px;
+        /* Smaller font size */
+    }
+
+    .hero-section {
+        height: auto;
+        /* Auto height for small screens */
+        margin: 10px;
+        /* Less margin */
+    }
+
+    .service-card {
+        width: 100%;
+        /* Full width for service card */
+        padding: 20px 5px;
+        /* Less padding */
+    }
+
+    .footerp {
+        font-size: 10px;
+        /* Smaller font size */
+        margin: 20px 5px;
+        /* Less margin */
+    }
+}
